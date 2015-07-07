@@ -25,7 +25,7 @@ public class ceshi {
    {
 	   System.out.println("等级为C");
    }
-	if((Score>=60)&&(Score<70));
+	if((Score>=60)&&(Score<70))
    {
 	   System.out.println("等级为D");
    }

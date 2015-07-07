@@ -28,7 +28,7 @@ public class HomeWork_5 {
 				System.out.println("ORDER_ERROR");
 				break;
 			}
-			
+
 		}
 
 	}
