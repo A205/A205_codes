@@ -4,16 +4,16 @@ public class Phone {
 	String brand;
 	int price;
 	void Call(){
-		System.out.println("´òµç»°...");
+		System.out.println("æ‰“ç”µè¯...");
 	}
 	void Sendmag(){
-		System.out.println("·¢¶ÌĞÅ....");
+		System.out.println("å‘çŸ­ä¿¡....");
 	}
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Phone phone=new Phone();
 		phone.name="note";
-		phone.brand="±¬Ã×»¨";
+		phone.brand="çˆ†ç±³èŠ±";
 		phone.price=19;
 		phone.Call();
 		phone.Sendmag();

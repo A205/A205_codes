@@ -3,11 +3,11 @@ public class Person {
 	String name;
 	int age;
 	String address;
-	//ÎŞ²Î
+	//æ— å‚
 	void introudce(){
-		System.out.println("´ó¼ÒºÃ£¬ÎÒ½Ğ"+name+",½ñÄê"+age+"Ëê,À´×Ô"+address);
+		System.out.println("å¤§å®¶å¥½ï¼Œæˆ‘å«"+name+",ä»Šå¹´"+age+"å²,æ¥è‡ª"+address);
 	}
-	//ÓĞ²Î
+	//æœ‰å‚
 	void introudce(String a,int b,String c){
 		name=a;
 		age=b;
@@ -15,11 +15,11 @@ public class Person {
 	}
 	public static void main(String[] args) {
 		Person a=new Person();
-		a.name="´óÍõ";
+		a.name="å¤§ç‹";
 		a.age=20;
-		a.address="ÌìÌÃ";
+		a.address="å¤©å ‚";
 		a.introudce();
-		a.introudce("´óÍõ",20,"ÌìÌÃ");
+		a.introudce("å¤§ç‹",20,"å¤©å ‚");
 		System.out.println(a.name+"\n"+a.age+"\n"+a.address);
 	}
 
