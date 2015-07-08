@@ -1,0 +1,52 @@
+package exercise2;
+
+public class work6 {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int[][]arr=new int[20][5];
+		int[]sum=new int[20];
+		int[]total=new int[5];
+	      //int[]ave=new int[5];
+		int i,j,k=0;
+		for(i=0;i<20;i++)
+			for(j=0;j<5;j++)
+			{
+				arr[i][j] = (int) (Math.random() * 100);//shu ru sui ji shu
+			}
+		System.out.println("  学生成绩");
+		System.out.println("core C++   coreJava    Servlet    JSP     EJB");
+		  for (i=0;i<20;i++){
+			   System.out.print(i+"号 ");
+			   for (j=0;j<5;j++){
+			    System.out.print(arr[i][j] + "         ");
+			   }
+			   System.out.println();
+			  }
+		for(i=0;i<20;i++){
+			sum[i]=0;
+		}
+		for(i=0;i<20;i++){
+			for(j=0;j<5;j++){
+				sum[i]=sum[i]+arr[i][j];
+			}
+			System.out.println("第"+i+"号"+sum[i]);	
+		}	
+		for(i=0;i<5;i++){
+			total[i]=0;
+			ave[i]=0;
+		}
+		System.out.println("core C++   coreJava    Servlet    JSP     EJB");
+		  for (i = 0; i < 5; i++) {
+		   for (j = 0; j < 20; j++) {
+		    total[i] += arr[i][i];
+		   }
+		   System.out.print("       " + total[i] / 20);
+		  }
+
+	}
+
+}
