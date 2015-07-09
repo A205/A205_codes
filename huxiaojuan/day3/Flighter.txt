@@ -1,0 +1,14 @@
+package day03;
+
+public class Flighter  extends Weapon {
+	public void attack()
+	{    
+		System.out.println("战斗机攻击！！！");
+		}     
+	public void move()
+	{      
+		System.out.println("战斗机移 !!!");
+		
+}
+
+}
